@@ -1,0 +1,16 @@
+{
+  "name": "Flutter Dev Container",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "flutter",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash" // 現在のVS Codeの推奨設定に準拠
+      },
+      "extensions": [
+        "Dart-Code.flutter",
+      ]
+    }
+  }
+}
